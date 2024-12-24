@@ -1,0 +1,23 @@
+{
+    "name": "klosa_backend",
+    "version": "1.0.0",
+    "main": "src/server.ts",
+    "scripts": {
+        "build": "rm rf build/ && tsc",
+        "start": "node build/server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "joi": "^17.13.3",
+        "mongoose": "^8.9.2"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.0",
+        "typescript": "^5.7.2"
+    }
+}
